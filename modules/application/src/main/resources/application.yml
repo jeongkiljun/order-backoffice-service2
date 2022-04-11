@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: backoffice-order
+
+  profiles:
+    active: local
+
+clients:
+  order-product-agent: https://order-product-agent.cloud.dev.kurly.services
+
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: FULL

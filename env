@@ -1,0 +1,1 @@
+echo REPOSITORY_NAME="cps/${SERVICE_NAME}"
