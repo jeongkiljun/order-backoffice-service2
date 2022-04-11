@@ -42,14 +42,14 @@ logging.level:
   org.springframework.transaction: DEBUG
   org.springframework.jdbc: DEBUG
 
-#slack:
-#  bot:
-#    token: xoxb-135797385811-2742300678674-9ffEYpRAzyelTcjGOR9sfXdc
-#  notice:
-#    channel: proj-09
-
 slack:
   bot:
     token: xoxb-135797385811-2742300678674-9ffEYpRAzyelTcjGOR9sfXdc
   notice:
-    channel: service-alert-dev-주문
+    channel: proj-09
+
+#slack:
+#  bot:
+#    token: xoxb-135797385811-2742300678674-9ffEYpRAzyelTcjGOR9sfXdc
+#  notice:
+#    channel: service-alert-dev-주문
